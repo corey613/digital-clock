@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+}
+
+#clock {
+
+    color: #af38fd;
+    font-size: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 7px;
+}
+
+
+@media screen and (max-width: 860px){
+    
+#clock {
+    font-size: 80px;
+}
+
+}
+
+
+@media screen and (max-width: 550px){
+    
+    #clock {
+        font-size: 40px;
+    }
+    
+    }
